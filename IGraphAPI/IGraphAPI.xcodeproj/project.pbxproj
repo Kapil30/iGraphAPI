@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22394F6C14B2B4ED00F0804F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22394F6B14B2B4ED00F0804F /* UIKit.framework */; };
+		22394F6E14B2B4ED00F0804F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22394F6D14B2B4ED00F0804F /* Foundation.framework */; };
+		22394F7014B2B4ED00F0804F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22394F6F14B2B4ED00F0804F /* CoreGraphics.framework */; };
+		22394F7614B2B4ED00F0804F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22394F7414B2B4ED00F0804F /* InfoPlist.strings */; };
+		22394F7814B2B4ED00F0804F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22394F7714B2B4ED00F0804F /* main.m */; };
+		22394F7C14B2B4ED00F0804F /* IGraphAPIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22394F7B14B2B4ED00F0804F /* IGraphAPIAppDelegate.m */; };
+		22394F7F14B2B4ED00F0804F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22394F7D14B2B4ED00F0804F /* MainStoryboard.storyboard */; };
+		22394F8214B2B4ED00F0804F /* IGraphAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22394F8114B2B4ED00F0804F /* IGraphAPIViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22394F6714B2B4ED00F0804F /* IGraphAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGraphAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22394F6B14B2B4ED00F0804F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22394F6D14B2B4ED00F0804F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22394F6F14B2B4ED00F0804F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22394F7314B2B4ED00F0804F /* IGraphAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGraphAPI-Info.plist"; sourceTree = "<group>"; };
+		22394F7514B2B4ED00F0804F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22394F7714B2B4ED00F0804F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22394F7914B2B4ED00F0804F /* IGraphAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IGraphAPI-Prefix.pch"; sourceTree = "<group>"; };
+		22394F7A14B2B4ED00F0804F /* IGraphAPIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGraphAPIAppDelegate.h; sourceTree = "<group>"; };
+		22394F7B14B2B4ED00F0804F /* IGraphAPIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGraphAPIAppDelegate.m; sourceTree = "<group>"; };
+		22394F7E14B2B4ED00F0804F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22394F8014B2B4ED00F0804F /* IGraphAPIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGraphAPIViewController.h; sourceTree = "<group>"; };
+		22394F8114B2B4ED00F0804F /* IGraphAPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGraphAPIViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22394F6414B2B4ED00F0804F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22394F6C14B2B4ED00F0804F /* UIKit.framework in Frameworks */,
+				22394F6E14B2B4ED00F0804F /* Foundation.framework in Frameworks */,
+				22394F7014B2B4ED00F0804F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22394F5C14B2B4ED00F0804F = {
+			isa = PBXGroup;
+			children = (
+				22394F7114B2B4ED00F0804F /* IGraphAPI */,
+				22394F6A14B2B4ED00F0804F /* Frameworks */,
+				22394F6814B2B4ED00F0804F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22394F6814B2B4ED00F0804F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22394F6714B2B4ED00F0804F /* IGraphAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22394F6A14B2B4ED00F0804F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22394F6B14B2B4ED00F0804F /* UIKit.framework */,
+				22394F6D14B2B4ED00F0804F /* Foundation.framework */,
+				22394F6F14B2B4ED00F0804F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22394F7114B2B4ED00F0804F /* IGraphAPI */ = {
+			isa = PBXGroup;
+			children = (
+				22394F7A14B2B4ED00F0804F /* IGraphAPIAppDelegate.h */,
+				22394F7B14B2B4ED00F0804F /* IGraphAPIAppDelegate.m */,
+				22394F7D14B2B4ED00F0804F /* MainStoryboard.storyboard */,
+				22394F8014B2B4ED00F0804F /* IGraphAPIViewController.h */,
+				22394F8114B2B4ED00F0804F /* IGraphAPIViewController.m */,
+				22394F7214B2B4ED00F0804F /* Supporting Files */,
+			);
+			path = IGraphAPI;
+			sourceTree = "<group>";
+		};
+		22394F7214B2B4ED00F0804F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22394F7314B2B4ED00F0804F /* IGraphAPI-Info.plist */,
+				22394F7414B2B4ED00F0804F /* InfoPlist.strings */,
+				22394F7714B2B4ED00F0804F /* main.m */,
+				22394F7914B2B4ED00F0804F /* IGraphAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22394F6614B2B4ED00F0804F /* IGraphAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22394F8514B2B4ED00F0804F /* Build configuration list for PBXNativeTarget "IGraphAPI" */;
+			buildPhases = (
+				22394F6314B2B4ED00F0804F /* Sources */,
+				22394F6414B2B4ED00F0804F /* Frameworks */,
+				22394F6514B2B4ED00F0804F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGraphAPI;
+			productName = IGraphAPI;
+			productReference = 22394F6714B2B4ED00F0804F /* IGraphAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22394F5E14B2B4ED00F0804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22394F6114B2B4ED00F0804F /* Build configuration list for PBXProject "IGraphAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22394F5C14B2B4ED00F0804F;
+			productRefGroup = 22394F6814B2B4ED00F0804F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22394F6614B2B4ED00F0804F /* IGraphAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22394F6514B2B4ED00F0804F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22394F7614B2B4ED00F0804F /* InfoPlist.strings in Resources */,
+				22394F7F14B2B4ED00F0804F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22394F6314B2B4ED00F0804F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22394F7814B2B4ED00F0804F /* main.m in Sources */,
+				22394F7C14B2B4ED00F0804F /* IGraphAPIAppDelegate.m in Sources */,
+				22394F8214B2B4ED00F0804F /* IGraphAPIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22394F7414B2B4ED00F0804F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22394F7514B2B4ED00F0804F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22394F7D14B2B4ED00F0804F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22394F7E14B2B4ED00F0804F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22394F8314B2B4ED00F0804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22394F8414B2B4ED00F0804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22394F8614B2B4ED00F0804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGraphAPI/IGraphAPI-Prefix.pch";
+				INFOPLIST_FILE = "IGraphAPI/IGraphAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22394F8714B2B4ED00F0804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGraphAPI/IGraphAPI-Prefix.pch";
+				INFOPLIST_FILE = "IGraphAPI/IGraphAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22394F6114B2B4ED00F0804F /* Build configuration list for PBXProject "IGraphAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22394F8314B2B4ED00F0804F /* Debug */,
+				22394F8414B2B4ED00F0804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22394F8514B2B4ED00F0804F /* Build configuration list for PBXNativeTarget "IGraphAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22394F8614B2B4ED00F0804F /* Debug */,
+				22394F8714B2B4ED00F0804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22394F5E14B2B4ED00F0804F /* Project object */;
+}
